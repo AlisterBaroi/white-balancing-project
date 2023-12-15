@@ -1,12 +1,10 @@
 import streamlit as st
 
 st.set_page_config(page_title="Streamlit App", page_icon=":smiley:")
-st.title("Image White Balancing App")
-st.write("Hello World!")
+st.title("Image White Balancing")
 
 uploaded_file = st.file_uploader(
-    label="Upload a file",
-    type=["png", "jpg"],
+    label="Upload an image file to white balance", type=["png", "jpg"]
 )
 
 if uploaded_file is not None:

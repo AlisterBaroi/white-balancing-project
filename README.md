@@ -1,1 +1,1 @@
-# white-balancing-project
+# White Balancing Project
